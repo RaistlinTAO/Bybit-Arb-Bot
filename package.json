@@ -1,0 +1,21 @@
+{
+  "name": "bybit-arb-bot",
+  "version": "3.1.0",
+  "description": "Dual-sided threshold arbitrage bot for Bybit V5 using wallet inventory and websocket-first execution",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/config.js && node --check src/logger.js && node --check src/utils.js && node --check src/state.js && node --check src/rateLimiter.js && node --check src/bybitClient.js && node --check src/bot.js",
+    "probe:wallet": "node src/index.js --probe-wallet"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bybit-api": "^4.6.1",
+    "decimal.js": "^10.6.0",
+    "dotenv": "^17.3.1",
+    "rklogger": "^1.6.1"
+  }
+}
