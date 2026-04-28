@@ -1,6 +1,6 @@
 # Bybit Two-Sided Arbitrage Bot
 
-[简体中文](./readme.zh-CN.md)
+[简体中文](./readme.zh-CN.md) | [繁體中文](./readme.zh-TW.md)
 
 A two-sided limit-order bot for Bybit spot trading pairs. The strategy continuously places orders on both the buy and sell sides at fixed thresholds based on available account balance.
 

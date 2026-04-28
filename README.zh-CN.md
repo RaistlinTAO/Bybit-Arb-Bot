@@ -2,7 +2,7 @@
 
 一个用于Bybit现货交易对的双边挂单机器人。策略基于账户可用余额，在买卖两侧按固定阈值持续挂单；优先通过 WebSocket 获取行情、订单与成交事件，REST 仅用于启动快照、周期对账与低频回退。
 
-[English](./readme.md)
+[English](./README.md) | [繁體中文](./readme.zh-TW.md)
 
 ## 功能特性
 
