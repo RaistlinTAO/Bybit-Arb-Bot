@@ -1,6 +1,6 @@
 # Bybit 雙邊套利機器人
 
-[English](./README.md) | [简体中文](./readme.zh-CN.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
 一個用於 Bybit 現貨交易對的雙邊掛單機器人。策略基於帳戶可用餘額，在買賣兩側按固定閾值持續掛單。
 
