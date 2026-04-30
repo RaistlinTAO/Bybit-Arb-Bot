@@ -1,4 +1,5 @@
 # Bybit Two-Sided Arbitrage Bot
+# Bybit 双边套利机器人
 
 [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md)
 
